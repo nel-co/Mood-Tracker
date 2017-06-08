@@ -1,0 +1,57 @@
+@import "reset";
+@import url('http://weloveiconfonts.com/api/?family=fontelico');
+@import url('https://fonts.googleapis.com/css?family=Dosis:700');
+
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+  transition: ease .4s;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 45px; padding-right: 45px;
+}
+.text-section-input,
+.text-section-input:focus {
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 2.5em;
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+}
+.text-section-input::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+.text-section-input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  opacity: 1;
+}
+.text-section-input::-moz-placeholder {  /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+.text-section-input:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+.previous-mood-section {
+  color: white;
+  text-transform: lowercase;
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+}

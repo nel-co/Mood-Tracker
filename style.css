@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("http://weloveiconfonts.com/api/?family=fontelico");
+@import url("https://fonts.googleapis.com/css?family=Dosis:700");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif; }
+
+body {
+  background-color: black;
+  transition: ease .4s;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  overflow: hidden; }
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 45px;
+  padding-right: 45px; }
+
+.text-section-input,
+.text-section-input:focus {
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 2.5em;
+  font-family: 'Dosis', sans-serif;
+  width: 100%; }
+
+.text-section-input::-webkit-input-placeholder {
+  color: white;
+  opacity: 1; }
+
+.text-section-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+  opacity: 1; }
+
+.text-section-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+  opacity: 1; }
+
+.text-section-input:-ms-input-placeholder {
+  color: white;
+  opacity: 1; }
+
+.previous-mood-section {
+  color: white;
+  text-transform: lowercase;
+  position: absolute;
+  bottom: 30px;
+  left: 45px; }
+
+/*# sourceMappingURL=style.css.map */
