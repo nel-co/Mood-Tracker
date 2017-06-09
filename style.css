@@ -102,4 +102,18 @@ body {
   bottom: 30px;
   left: 45px; }
 
+@media screen and (max-width: 399px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+  .previous-mood-section {
+    position: absolute;
+    left: 25px;
+    padding-right: 25px; }
+
+  .text-section-input,
+  .text-section-input:focus {
+    font-size: 2em; } }
+
 /*# sourceMappingURL=style.css.map */
